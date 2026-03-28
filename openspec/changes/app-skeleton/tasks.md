@@ -17,7 +17,7 @@
 
 ## 3. 範例資料
 
-- [ ] 3.1 建立 `SampleData/SampleData.swift`，提供各模組 3-4 筆靜態範例資料
+- [x] 3.1 建立 `SampleData/SampleData.swift`，提供各模組 3-4 筆靜態範例資料
 
 ## 4. 共用元件
 
