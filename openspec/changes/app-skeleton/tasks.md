@@ -25,8 +25,8 @@
 
 ## 5. 交通模組 View
 
-- [ ] 5.1 建立 `Views/Transportation/TransportationDetailView.swift`
-- [ ] 5.2 建立 `Views/Transportation/TransportationListView.swift`（NavigationStack + List）
+- [x] 5.1 建立 `Views/Transportation/TransportationDetailView.swift`
+- [x] 5.2 建立 `Views/Transportation/TransportationListView.swift`（NavigationStack + List）
 
 ## 6. 景點模組 View
 
