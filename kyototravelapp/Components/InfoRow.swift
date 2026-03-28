@@ -8,9 +8,10 @@ struct InfoRow: View {
         HStack {
             Text(label)
                 .fontWeight(.medium)
+                .foregroundStyle(Color.kyotoTextSecondary)
             Spacer()
             Text(value)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(Color.kyotoTextPrimary)
         }
     }
 }

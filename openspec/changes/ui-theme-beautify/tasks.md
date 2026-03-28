@@ -5,12 +5,12 @@
 
 ## 2. 暗色模式
 
-- [ ] 2.1 確認 `kyototravelappApp.swift` 已設定 `.preferredColorScheme(.dark)`
+- [x] 2.1 確認 `kyototravelappApp.swift` 已設定 `.preferredColorScheme(.dark)`
 
 ## 3. 共用元件
 
-- [ ] 3.1 建立 `Components/StyledListRow.swift`（圓形圖示 + 標題 + 副標題）
-- [ ] 3.2 更新 `Components/InfoRow.swift` 套用京都配色
+- [x] 3.1 建立 `Components/StyledListRow.swift`（圓形圖示 + 標題 + 副標題）
+- [x] 3.2 更新 `Components/InfoRow.swift` 套用京都配色
 
 ## 4. 列表 View 套用新樣式
 
