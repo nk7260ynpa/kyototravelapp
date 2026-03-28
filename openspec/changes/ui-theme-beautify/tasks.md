@@ -28,7 +28,7 @@
 
 ## 6. TabView 樣式
 
-- [ ] 6.1 更新 `ContentView.swift` TabView 套用京都配色
+- [x] 6.1 更新 `ContentView.swift` TabView 套用京都配色
 
 ## 7. 啟動畫面
 

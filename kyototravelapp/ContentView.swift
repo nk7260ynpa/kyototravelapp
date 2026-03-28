@@ -23,9 +23,11 @@ struct ContentView: View {
                     Label("餐廳", systemImage: "fork.knife")
                 }
         }
+        .tint(Color.kyotoAccent)
     }
 }
 
 #Preview {
     ContentView()
+        .preferredColorScheme(.dark)
 }
