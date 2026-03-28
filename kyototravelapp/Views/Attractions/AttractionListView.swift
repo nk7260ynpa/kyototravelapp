@@ -5,15 +5,15 @@ struct AttractionListView: View {
         NavigationStack {
             List(SampleData.attractions) { attraction in
                 NavigationLink(destination: AttractionDetailView(attraction: attraction)) {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(attraction.name)
-                            .font(.headline)
-                        Text(attraction.category.rawValue)
-                            .font(.subheadline)
-                            .foregroundStyle(.secondary)
-                    }
+                    StyledListRow(
+                        icon: "building.columns.fill",
+                        title: attraction.name,
+                        subtitle: attraction.category.rawValue
+                    )
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Color.kyotoBackground)
             .navigationTitle("景點")
         }
     }
@@ -21,4 +21,5 @@ struct AttractionListView: View {
 
 #Preview {
     AttractionListView()
+        .preferredColorScheme(.dark)
 }

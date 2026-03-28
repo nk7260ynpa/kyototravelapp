@@ -5,20 +5,15 @@ struct TransportationListView: View {
         NavigationStack {
             List(SampleData.transportationMethods) { method in
                 NavigationLink(destination: TransportationDetailView(method: method)) {
-                    Label {
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(method.name)
-                                .font(.headline)
-                            Text(method.description)
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-                                .lineLimit(2)
-                        }
-                    } icon: {
-                        Image(systemName: method.icon)
-                    }
+                    StyledListRow(
+                        icon: method.icon,
+                        title: method.name,
+                        subtitle: method.description
+                    )
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Color.kyotoBackground)
             .navigationTitle("交通")
         }
     }
@@ -26,4 +21,5 @@ struct TransportationListView: View {
 
 #Preview {
     TransportationListView()
+        .preferredColorScheme(.dark)
 }

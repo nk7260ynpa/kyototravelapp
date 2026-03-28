@@ -5,15 +5,15 @@ struct RestaurantListView: View {
         NavigationStack {
             List(SampleData.restaurants) { restaurant in
                 NavigationLink(destination: RestaurantDetailView(restaurant: restaurant)) {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(restaurant.name)
-                            .font(.headline)
-                        Text(restaurant.cuisineType.rawValue)
-                            .font(.subheadline)
-                            .foregroundStyle(.secondary)
-                    }
+                    StyledListRow(
+                        icon: "fork.knife",
+                        title: restaurant.name,
+                        subtitle: restaurant.cuisineType.rawValue
+                    )
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Color.kyotoBackground)
             .navigationTitle("餐廳")
         }
     }
@@ -21,4 +21,5 @@ struct RestaurantListView: View {
 
 #Preview {
     RestaurantListView()
+        .preferredColorScheme(.dark)
 }

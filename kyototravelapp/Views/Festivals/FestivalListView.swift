@@ -5,15 +5,15 @@ struct FestivalListView: View {
         NavigationStack {
             List(SampleData.festivals) { festival in
                 NavigationLink(destination: FestivalDetailView(festival: festival)) {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(festival.name)
-                            .font(.headline)
-                        Text(festival.date)
-                            .font(.subheadline)
-                            .foregroundStyle(.secondary)
-                    }
+                    StyledListRow(
+                        icon: "party.popper.fill",
+                        title: festival.name,
+                        subtitle: festival.date
+                    )
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Color.kyotoBackground)
             .navigationTitle("慶典")
         }
     }
@@ -21,4 +21,5 @@ struct FestivalListView: View {
 
 #Preview {
     FestivalListView()
+        .preferredColorScheme(.dark)
 }

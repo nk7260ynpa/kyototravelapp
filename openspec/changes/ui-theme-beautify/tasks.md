@@ -14,10 +14,10 @@
 
 ## 4. 列表 View 套用新樣式
 
-- [ ] 4.1 更新 `TransportationListView.swift` 使用 `StyledListRow`
-- [ ] 4.2 更新 `AttractionListView.swift` 使用 `StyledListRow`
-- [ ] 4.3 更新 `FestivalListView.swift` 使用 `StyledListRow`
-- [ ] 4.4 更新 `RestaurantListView.swift` 使用 `StyledListRow`
+- [x] 4.1 更新 `TransportationListView.swift` 使用 `StyledListRow`
+- [x] 4.2 更新 `AttractionListView.swift` 使用 `StyledListRow`
+- [x] 4.3 更新 `FestivalListView.swift` 使用 `StyledListRow`
+- [x] 4.4 更新 `RestaurantListView.swift` 使用 `StyledListRow`
 
 ## 5. 詳情 View 套用新樣式
 
