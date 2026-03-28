@@ -8,12 +8,18 @@
 
 /* Begin PBXFileReference section */
 		747C07A12F77FD8B006DEE8E /* kyototravelapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kyototravelapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		747C07AF2F78028B006DEE8E /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		747C07A32F77FD8B006DEE8E /* kyototravelapp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = kyototravelapp;
+			sourceTree = "<group>";
+		};
+		747C07B42F780314006DEE8E /* openspec */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = openspec;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +38,8 @@
 		747C07982F77FD8B006DEE8E = {
 			isa = PBXGroup;
 			children = (
+				747C07B42F780314006DEE8E /* openspec */,
+				747C07AF2F78028B006DEE8E /* CLAUDE.md */,
 				747C07A32F77FD8B006DEE8E /* kyototravelapp */,
 				747C07A22F77FD8B006DEE8E /* Products */,
 			);

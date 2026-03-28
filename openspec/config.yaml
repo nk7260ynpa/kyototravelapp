@@ -1,0 +1,10 @@
+schema: spec-driven
+
+context: |
+  專案名稱：京都旅行 App（kyototravelapp）
+  技術棧：Swift 5.0、SwiftUI、iOS 26.2+（iPhone + iPad）
+  Swift Concurrency：啟用 MainActor 預設隔離
+  領域：京都旅遊資訊平台
+  涵蓋範圍：交通、景點、慶典、餐廳
+  語言偏好：繁體中文（UI 與文件）
+  Git 規範：Conventional Commits（繁體中文）
