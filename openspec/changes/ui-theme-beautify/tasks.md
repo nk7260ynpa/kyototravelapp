@@ -21,10 +21,10 @@
 
 ## 5. 詳情 View 套用新樣式
 
-- [ ] 5.1 更新 `TransportationDetailView.swift` 套用金色標題與卡片樣式
-- [ ] 5.2 更新 `AttractionDetailView.swift` 套用金色標題與卡片樣式
-- [ ] 5.3 更新 `FestivalDetailView.swift` 套用金色標題與卡片樣式
-- [ ] 5.4 更新 `RestaurantDetailView.swift` 套用金色標題與卡片樣式
+- [x] 5.1 更新 `TransportationDetailView.swift` 套用金色標題與卡片樣式
+- [x] 5.2 更新 `AttractionDetailView.swift` 套用金色標題與卡片樣式
+- [x] 5.3 更新 `FestivalDetailView.swift` 套用金色標題與卡片樣式
+- [x] 5.4 更新 `RestaurantDetailView.swift` 套用金色標題與卡片樣式
 
 ## 6. TabView 樣式
 
