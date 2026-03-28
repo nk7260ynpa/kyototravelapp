@@ -30,8 +30,8 @@
 
 ## 6. 景點模組 View
 
-- [ ] 6.1 建立 `Views/Attractions/AttractionDetailView.swift`
-- [ ] 6.2 建立 `Views/Attractions/AttractionListView.swift`（NavigationStack + List）
+- [x] 6.1 建立 `Views/Attractions/AttractionDetailView.swift`
+- [x] 6.2 建立 `Views/Attractions/AttractionListView.swift`（NavigationStack + List）
 
 ## 7. 慶典模組 View
 
