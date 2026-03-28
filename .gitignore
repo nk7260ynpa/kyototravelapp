@@ -1,2 +1,28 @@
 CLAUDE.md
 .claude/
+plan/
+
+# Xcode
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Logs
+*.log
+logs/
