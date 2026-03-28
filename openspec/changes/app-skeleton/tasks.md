@@ -21,7 +21,7 @@
 
 ## 4. 共用元件
 
-- [ ] 4.1 建立 `Components/InfoRow.swift`（可複用的 label + value 顯示列）
+- [x] 4.1 建立 `Components/InfoRow.swift`（可複用的 label + value 顯示列）
 
 ## 5. 交通模組 View
 
