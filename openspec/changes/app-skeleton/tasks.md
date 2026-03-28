@@ -45,7 +45,7 @@
 
 ## 9. TabView 導覽
 
-- [ ] 9.1 修改 `ContentView.swift` 為 TabView，整合四個模組的 ListView
+- [x] 9.1 修改 `ContentView.swift` 為 TabView，整合四個模組的 ListView
 
 ## 10. 驗證
 

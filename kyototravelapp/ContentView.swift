@@ -1,21 +1,28 @@
-//
-//  ContentView.swift
-//  kyototravelapp
-//
-//  Created by Chen on 2026/3/28.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            TransportationListView()
+                .tabItem {
+                    Label("交通", systemImage: "tram.fill")
+                }
+
+            AttractionListView()
+                .tabItem {
+                    Label("景點", systemImage: "building.columns.fill")
+                }
+
+            FestivalListView()
+                .tabItem {
+                    Label("慶典", systemImage: "party.popper.fill")
+                }
+
+            RestaurantListView()
+                .tabItem {
+                    Label("餐廳", systemImage: "fork.knife")
+                }
         }
-        .padding()
     }
 }
 
