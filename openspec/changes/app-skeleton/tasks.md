@@ -40,8 +40,8 @@
 
 ## 8. 餐廳模組 View
 
-- [ ] 8.1 建立 `Views/Restaurants/RestaurantDetailView.swift`
-- [ ] 8.2 建立 `Views/Restaurants/RestaurantListView.swift`（NavigationStack + List）
+- [x] 8.1 建立 `Views/Restaurants/RestaurantDetailView.swift`
+- [x] 8.2 建立 `Views/Restaurants/RestaurantListView.swift`（NavigationStack + List）
 
 ## 9. TabView 導覽
 
