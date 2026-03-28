@@ -35,8 +35,8 @@
 
 ## 7. 慶典模組 View
 
-- [ ] 7.1 建立 `Views/Festivals/FestivalDetailView.swift`
-- [ ] 7.2 建立 `Views/Festivals/FestivalListView.swift`（NavigationStack + List）
+- [x] 7.1 建立 `Views/Festivals/FestivalDetailView.swift`
+- [x] 7.2 建立 `Views/Festivals/FestivalListView.swift`（NavigationStack + List）
 
 ## 8. 餐廳模組 View
 
